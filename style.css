@@ -1,0 +1,150 @@
+.header{}
+.header .container {}
+.header .container .row .col-md-5 .hadding{}
+.header .container .row .col-md-5 .hadding strong {
+    color: #3662eb;
+    font-weight: 400;
+    font-size: 20px;
+}
+.header .container .row .col-md-5 .hadding h1 {
+    font-weight: 600;
+    width: 400px;
+    padding: 30px 0px 25px 0px;
+    position: relative;
+}
+.header .container .row .col-md-5 .hadding h1::before{
+    content: "";
+    position: absolute;
+    left: 3px;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+ 
+.header .container .row .col-md-5 .hadding p{}
+
+.header .container .row .col-md-7 .logo-all{}
+.header .container .row .col-md-7 .logo-all table{}
+.header .container .row .col-md-7 .logo-all table tr{}
+.header .container .row .col-md-7 .logo-all table tr td{
+    border: 1px solid #ddd;
+}
+
+
+/* =================blog================= */
+ .blog{}
+ .blog .container {}
+ .blog .container .row{}
+ .blog .container .row .col-md-6{}
+ .blog .container .row .col-md-6 .blog-text{}
+ .blog .container .row .col-md-6 .blog-text strong{
+     font-weight: 501;
+ }
+ .blog .container .row .col-md-6 .blog-text h1 {
+    font-weight: bold;
+    position: relative;
+    padding: 20px 0px;
+}
+.blog .container .row .col-md-6 .blog-text h1::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+.blog .container .row .col-md-6 .blog-text p{
+    padding: 10px 0px 30px 0px;
+}
+ .blog .container .row .col-md-4 .box2{}
+ .blog .container .row .col-md-4 .box2 .box-img{
+     position: relative;
+ }
+ .blog .container .row .col-md-4 .box2 .box-img a .img1 {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 8px;
+}
+ .blog .container .row .col-md-4 .box2 .box-text{}
+ .blog .container .row .col-md-4 .box2 .box-img a {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background-color: #3662eb;
+    color: white;
+    border-radius: 30px;
+}
+ .blog .container .row .col-md-4 .box2 .box-text a img{}
+ .blog .container .row .col-md-4 .box2 .box-text h4{
+     margin: 15px 0px;
+     font-weight: 501;
+ }
+ .blog .container .row .col-md-4 .box2 .box-text p{}
+
+/* =================blog================= */
+
+/* ====================footer==================== */
+
+  .footer-top{
+      background-color: #081828;
+  }
+  .footer-top .container{
+      border-bottom: 1px solid #ddd;
+  }
+  .footer-top .container .row{}
+  .footer-top .container .row .col-md-3 .left-sid{}
+  .footer-top .container .row .col-md-3 .left-sid .logo{}
+  .footer-top .container .row .col-md-3 .left-sid .logo img {
+    width: 200px;
+    margin: 20px 0px;
+}
+ .footer-top .container .row .col-md-3 .left-sid p{
+      color: #ddd;
+  }
+  .footer-top .container .row .col-md-3 .left-sid .icon{}
+  .footer-top .container .row .col-md-3 .left-sid .icon ul{}
+.footer-top .container .row .col-md-3 .left-sid .icon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}  .footer-top .container .row .col-md-3 .left-sid .icon ul li a{}
+  .footer-top .container .row .col-md-3 .left-sid .icon ul li a i{
+      color: white;
+  }
+
+  .footer-top .container .row .col-md-3 .text{}
+  .footer-top .container .row .col-md-3 .text ul li strong{
+      color: #ddd;
+  }
+  .footer-top .container .row .col-md-3 .text ul{
+      list-style: none;
+  }
+  .footer-top .container .row .col-md-3 .left-sid .logo .icon ul li a{
+    display: inline-block;
+    margin: 0px 11px;
+}  .footer-top .container .row .col-md-3 .text ul li a {
+    text-decoration: none;
+    color: #c3bcbc;
+  }
+ 
+/* ====================footer==================== */
+
+/* ======================footer=============== */
+
+   .footer {
+      background-color: #081828;
+   }
+   .footer .container{}
+   .footer .container .row{}
+   .footer .container .row .col-md-12{}
+   .footer .container .row .col-md-12 p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0px;
+
+   }
+/* ======================footer=============== */
